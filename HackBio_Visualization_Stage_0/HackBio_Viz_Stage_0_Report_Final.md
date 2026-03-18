@@ -24,20 +24,20 @@ The most beautiful visualization serves for revealing hidden patterns in researc
 
 **REFERENCES**
 
-1. Brockman M. Healthcare Data Visualization Guide: Examples, Benefits & More [Internet]. Julius AI; 2024 [cited 2026 Feb 19]. Available from: <https://julius.ai/articles/healthcare-data-visualization-guide
+1. Brockman M. Healthcare Data Visualization Guide: Examples, Benefits & More [Internet]. Julius AI; 2024 [cited 2026 Feb 19]. Available from: https://julius.ai/articles/healthcare-data-visualization-guide
 
 2. Improvement Cymru Academy. Data Visualisation Toolkit Guide. Cardiff: NHS Wales; 2024.
 
 3. Torres H, Ozturk E, Fang Z, Zhang N, Cai S, Sarkar N, et al. What is a "Good" figure: Scoring of biomedical data visualization. PLoS One. 2025;20(11): e0336917. doi:10.1371/journal.pone.0336917
 
-4. Sodano J. Data Visualization: The Convergence of Scientific Data and Value-based Graphics [Internet]. Open Health Group; 2024 [cited 2026 Feb 19]. Available from: <https://www.openhealthgroup.com/news/11-04-2024/data-visualization-the-convergence-of-scientific-data-and-value-based-graphics/
+4. Sodano J. Data Visualization: The Convergence of Scientific Data and Value-based Graphics [Internet]. Open Health Group; 2024 [cited 2026 Feb 19]. Available from: https://www.openhealthgroup.com/news/11-04-2024/data-visualization-the-convergence-of-scientific-data-and-value-based-graphics/
 
-5. KMS Technology. What is Healthcare Data Visualization? Benefits and Key Applications [Internet]. 2024 [cited 2026 Feb 19]. Available from: <https://kms-technology.com/blog/healthcare-data-visualization/
+5. KMS Technology. What is Healthcare Data Visualization? Benefits and Key Applications [Internet]. 2024 [cited 2026 Feb 19]. Available from: https://kms-technology.com/blog/healthcare-data-visualization/
 
-6. Demigos. Healthcare Data Visualization: Examples & Key Benefits [Internet]. 2023 \[cited 2026 Feb 19\]. Available from: <https://demigos.com/blog-post/healthcare-data-visualization/
+6. Demigos. Healthcare Data Visualization: Examples & Key Benefits [Internet]. 2023 \[cited 2026 Feb 19\]. Available from: https://demigos.com/blog-post/healthcare-data-visualization/
 
 7. W2S Solutions. What are the 5 C's of data visualization? [Internet]. 2026 [cited 2026 Feb 19]. Available from: https://www.w2ssolutions.com/faq/c-of-data-visualization/
 
 8. Dasca (Data Science Council of America). Mobilizing Data Science in Healthcare: Applications, Challenges, and Solutions [Internet]. 2023 [cited 2026 Feb 19]. Available from: https://www.dasca.org/world-of-data-science/article/mobilizing-data-science-in-healthcare-applications-challenges-and-solutions
 
-9. Turacoz Group. Visualizing Medical Data: Enhancing Understanding and Communication [Internet]. 2024 [cited 2026 Feb 19]. Available from: <https://turacoz.com/visualizing-medical-data-enhancing-understanding-and-communication/
+9. Turacoz Group. Visualizing Medical Data: Enhancing Understanding and Communication [Internet]. 2024 [cited 2026 Feb 19]. Available from: https://turacoz.com/visualizing-medical-data-enhancing-understanding-and-communication/

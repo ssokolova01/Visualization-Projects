@@ -4,7 +4,7 @@
 
 The importance of data visualization in healthcare became evident in the 19th century when Florence Nightingale first applied it for epidemiological data. Useful healthcare data visualization has certain purposes: decision-making, pattern recognition, data simplification. These clinical demands often mismatch with sophisticated scientific visualization approaches with detail-oriented and aesthetic preference. To avoid missed insights and delayed decisions, the gap between clinical needs and scientific complexity can be bridged using simple graphs, dashboards and infographics for effective healthcare data translation. [1,2]
 
-***[Scientist Perspectives]{.mark}***
+***Scientist Perspectives***
 
 [Scientists create complex visualizations with multidimensional data representation and methodological sophistication because it serves both as an analytical tool and a form of a visual communication to meet academic standards. This leads to advanced visualization approaches (heatmaps, network diagrams and 3D plots). Scientific plots pursue analytical depth and reflect the biological systems complexity. \[3,4\]]{.mark}
 

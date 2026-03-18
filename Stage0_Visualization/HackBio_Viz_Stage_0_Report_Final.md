@@ -1,8 +1,8 @@
 **Visualization for Healthcare Translation**
 
-***[Introduction]{.mark}***
+***Introduction***
 
-[The importance of data visualization in healthcare became evident in the 19^th^ century when Florence Nightingale first applied it for epidemiological data. Useful healthcare data visualization has certain purposes: decision-making, pattern recognition, data simplification. These clinical demands often mismatch with sophisticated scientific visualization approaches with detail-oriented and aesthetic preference. To avoid missed insights and delayed decisions, the gap between clinical needs and scientific complexity can be bridged using simple graphs, dashboards and infographics for effective healthcare data translation. \[1,2\]]{.mark}
+The importance of data visualization in healthcare became evident in the 19th century when Florence Nightingale first applied it for epidemiological data. Useful healthcare data visualization has certain purposes: decision-making, pattern recognition, data simplification. These clinical demands often mismatch with sophisticated scientific visualization approaches with detail-oriented and aesthetic preference. To avoid missed insights and delayed decisions, the gap between clinical needs and scientific complexity can be bridged using simple graphs, dashboards and infographics for effective healthcare data translation. [1,2]
 
 ***[Scientist Perspectives]{.mark}***
 

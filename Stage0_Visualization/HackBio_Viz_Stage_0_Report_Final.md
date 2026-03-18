@@ -1,4 +1,4 @@
-**[Visualization for Healthcare Translation]{.mark}**
+**Visualization for Healthcare Translation**
 
 ***[Introduction]{.mark}***
 

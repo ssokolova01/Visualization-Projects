@@ -16,6 +16,7 @@ The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, 
 
 ## **Part 1 - Technical Essay** ##
 **Title:** *Visualization for Healthcare Translation*
+
 **Working Topic:** Why Clinicians Ignore Your Beautiful Plots (And How to Fix That)
 
 

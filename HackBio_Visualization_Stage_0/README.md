@@ -19,4 +19,5 @@ The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, 
 
 **Working Topic:** Why Clinicians Ignore Your Beautiful Plots (And How to Fix That)
 
+**Brief:** Scientists optimize for analytical depth; clinicians optimize for speed of comprehension. The article discusses that mismatch and reviews design choices that make data visualization usable at the point of care. Dashboards are considered as the bridge between demands of scientific and clinical public.
 

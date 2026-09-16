@@ -1,4 +1,4 @@
-### Stage 0 - Technical Writing and First Steps in R ###
+# Stage 0 - Technical Writing and First Steps in R #
 
 The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, covering two outputs: 
 * Short technical essay written for both scientific and general audiences;
@@ -13,4 +13,6 @@ The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, 
 └── scripts/
     └── team_member_info.R
 ```
+
+**Part 1 - Technical Essay**
 

@@ -65,13 +65,13 @@ print(paste0("Hi, my name is ", team_member$name,
 
 **What the script demonstrates**
 
-**Why a list rather than a vector?**
+***Why a list rather than a vector?***
 
 * An R vector requires all elements to share a single type, and would flatten a set of related fields into an unlabelled sequence.
 * A list holds named elements and keeps each field independently addressable, which is the appropriate structure for a record describing one entity.
 * Named elements are accessed with `$`, making the code self-documenting: `team_member$affiliation` states what it retrieves.
 
-**Why `paste0()` rather than `paste()`?**
+***Why `paste0()` rather than `paste()`?***
 
 * `paste()` inserts a space separator between arguments by default, which would produce unwanted spaces before punctuation.
 * `paste0()` concatenates with no separator, so spacing and punctuation are controlled explicitly inside the string fragments — necessary to get `"sim in Drosophila melanogaster."` rather than `"sim in Drosophila melanogaster ."`.

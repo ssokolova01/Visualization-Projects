@@ -23,7 +23,7 @@ The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, 
 
 **Structure:** 
 
-* *Introduction:* Quick historical reference to data visualization (first attempts in 19th century); 
+* *Introduction:* Quick historical reference to data visualization (first attempts in 19th century). Healthcare data visualization purposes: decision-making, pattern recognition, data simplification. 
   
 * *Scientist Perspective*
   

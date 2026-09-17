@@ -1,8 +1,19 @@
 # Stage 0 - Technical Writing and First Steps in R #
 
-The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, covering two outputs: 
-* Short technical essay written for both scientific and general audiences;
-* Simple R script introducing data structures and string handling.
+-------------------------------------------------------------------------------------------------------------------
+
+**The Task**
+
+***Stage Zero: HackBio Landing (Technical Writing and Simple Coding)***
+
+Two deliverables:
+
+* Develop technical writing skills, focusing on clear and concise communication of complex scientific concepts — documenting findings, writing reports, and creating content accessible to both scientific and general audiences.
+* Write a simple R script printing a name, affiliation, a favorite gene and the organism bearing it, producing output along the lines of: "Hi, my name is [Intern Name], a researcher at the [Organization Name]. My favorite gene is [Gene Name] in [Organism Name].".
+
+The article topic was assigned from a set of directions provided by HackBio: *Why Clinicians Ignore Your Beautiful Plots (And How to Fix That): Visualization for healthcare translation — scientists optimize for beauty, clinicians optimize for clarity; show how dashboards bridge the gap.*.
+
+----------------------------------------------------------------------------------------------------------------------
 
 ## **Repository structure** ##
 ```

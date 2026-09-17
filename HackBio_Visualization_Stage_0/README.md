@@ -11,7 +11,7 @@ The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, 
 ├── essay/
 │   └── HackBio_Viz_Stage_0_Report_Final.md
 └── scripts/
-    └── team_member_info.R
+    └── Stage_0_Coding_Task.R
 ```
 
 ## **Part 1 - Technical Essay** ##

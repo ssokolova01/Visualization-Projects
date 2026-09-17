@@ -21,7 +21,7 @@ Given a reference table of amino acid molecular weights:
 * If the input contains a non-protein character (such as B), return 0 for that value.
 * Write an essay describing the step-by-step recipe used to solve the task in R.
 
-Table of amino acid molecular weights:
+*Table of amino acid molecular weights:*
 | Amino Acid | 3-Letter Code | 1-Letter Code | Weight (Da) |
 |------------|---------------|---------------|-------------|
 | Alanine | Ala | A | 89.09 |

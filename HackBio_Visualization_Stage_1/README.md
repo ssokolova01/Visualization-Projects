@@ -52,9 +52,9 @@ Table of amino acid molecular weights:
 .
 ├── README.md
 ├── essay/
-│   └── HackBio_Viz_Stage_0_Report_Final.md
+│   └── Stage_1_Essay_AminoAcid.md
 └── scripts/
-    └── Stage_0_Coding_Task.R
+    └── HackBio_Stage_1_Coding_Task.R
 
 
 

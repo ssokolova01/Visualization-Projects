@@ -2,7 +2,7 @@
 
 -------------------------------------------------------------------------------------------------------------------
 
-**The Task**
+## **The Task** ##
 
 ***Stage Zero: HackBio Landing (Technical Writing and Simple Coding)***
 
@@ -91,7 +91,7 @@ print(paste0("Hi, my name is ", team_member$name,
 
 `sim` (single-minded) is a transcription factor in Drosophila melanogaster and a master regulator of central nervous system midline cell development.
 
-**Tools**
+## **Tools** ##
 
 Base R only. No external packages required.
 

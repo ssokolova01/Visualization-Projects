@@ -12,7 +12,7 @@ The focus of this stage is writing functions that handle real input robustly (mi
 
 Make the GC% calculation robust enough to handle nucleotide sequences written in upper and lower case, so that `GCATTTAT` and `gcaTTTAT` both return 25%.
 
-**Task 2 — Protein molecular weight**
+**Task 2 - Protein molecular weight**
 
 Given a reference table of amino acid molecular weights:
 

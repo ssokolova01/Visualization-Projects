@@ -23,7 +23,7 @@ The article topic was assigned from a set of directions provided by HackBio: *Wh
 ├── essay/
 │   └── HackBio_Viz_Stage_0_Report_Final.md
 └── scripts/
-    └── Stage_0_Coding_Task.R
+    └── HackBio_Viz_Stage_0_Coding_Task.R
 ```
 
 ## **Part 1 - Technical Essay** ##

@@ -11,7 +11,7 @@ Two deliverables:
 * Develop technical writing skills, focusing on clear and concise communication of complex scientific concepts — documenting findings, writing reports, and creating content accessible to both scientific and general audiences.
 * Write a simple R script printing a name, affiliation, a favorite gene and the organism bearing it, producing output along the lines of: "Hi, my name is [Intern Name], a researcher at the [Organization Name]. My favorite gene is [Gene Name] in [Organism Name].".
 
-The article topic was assigned from a set of directions provided by HackBio: *Why Clinicians Ignore Your Beautiful Plots (And How to Fix That): Visualization for healthcare translation — scientists optimize for beauty, clinicians optimize for clarity; show how dashboards bridge the gap.*.
+The article topic was assigned from a set of directions provided by HackBio: *Why Clinicians Ignore Your Beautiful Plots (And How to Fix That): Visualization for healthcare translation - scientists optimize for beauty, clinicians optimize for clarity; show how dashboards bridge the gap.*.
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ The article topic was assigned from a set of directions provided by HackBio: *Wh
   
 * *The Gap Between Scientists and Clinicians:* Different visualization purposes: scientifically interesting detail and clinically actionable information. Different accents in professional training: statistical graphics interpretation on one side, clinical pattern recognition on the other. Consequences: misinterpretation and medication errors.
   
-* *Conclusions and Solutions:* Collaboration between scientists and clinicians from the initial design stage. Usability prioritized over aesthetics. The five C's of clinical visualization: clarity, context, color, consistency, conciseness. Structural data organization: visual hierarchy and appropriate chart selection. Dashboards are presented as the direction of travel: hierarchical information architecture; high-level metrics and alerts on the overview; detail behind interactive elements; filters for personalized (clinical specialization) information priority. The closing argument: the same visualization work serves two different ends — revealing hidden patterns in research and saving lives in clinical care.
+* *Conclusions and Solutions:* Collaboration between scientists and clinicians from the initial design stage. Usability prioritized over aesthetics. The five C's of clinical visualization: clarity, context, color, consistency, conciseness. Structural data organization: visual hierarchy and appropriate chart selection. Dashboards are presented as the direction of travel: hierarchical information architecture; high-level metrics and alerts on the overview; detail behind interactive elements; filters for personalized (clinical specialization) information priority. The closing argument: the same visualization work serves two different ends - revealing hidden patterns in research and saving lives in clinical care.
 
 **Skills demonstrated:**
 
@@ -85,7 +85,7 @@ print(paste0("Hi, my name is ", team_member$name,
 ***Why `paste0()` rather than `paste()`?***
 
 * `paste()` inserts a space separator between arguments by default, which would produce unwanted spaces before punctuation.
-* `paste0()` concatenates with no separator, so spacing and punctuation are controlled explicitly inside the string fragments — necessary to get `"sim in Drosophila melanogaster."` rather than `"sim in Drosophila melanogaster ."`.
+* `paste0()` concatenates with no separator, so spacing and punctuation are controlled explicitly inside the string fragments - necessary to get `"sim in Drosophila melanogaster."` rather than `"sim in Drosophila melanogaster ."`.
 
 **About the gene**
 

@@ -23,12 +23,19 @@ The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, 
 
 **Structure:** 
 
-* *Introduction:* Quick historical reference to data visualization (first attempts in 19th century). Healthcare data visualization purposes: decision-making, pattern recognition, data simplification. Overview of possible accommodation solutions for data visualization in healthcare with dashboards and inforgraphics as example.
+* *Introduction:* Quick historical reference to data visualization (first attempts in the 19th century). Healthcare data visualization purposes: decision-making, pattern recognition, data simplification. Overview of possible accommodation solutions for data visualization in healthcare with dashboards and infographics as examples.
   
-* *Scientist Perspective*
+* *Scientist Perspective:* Complex visualization decisions (heatmaps, network diagrams, 3D plots) as part of academic standards.
   
-* *Clinician Perspective*
+* *Clinician Perspective:* Main purpose of visualization are fast decisions and pattern recognition for patient monitoring. Best visualization practice: simple bar charts, line graphs of vital signs and clearly labelled alerts.
   
-* *The Gap Between Scientists and Clinicians*
+* *The Gap Between Scientists and Clinicians:* Different visualization purposes: scientifically interesting detail and clinically actionable information. Different accents in professional training: statistical graphics interpretation on one side, clinical pattern recognition on the other. Consequences: misinterpretation and medication errors.
   
-* *Conclusions and Solutions*
+* *Conclusions and Solutions:* Collaboration between scientists and clinicians from the initial design stage. Usability prioritized over aesthetics. The five C's of clinical visualization: clarity, context, color, consistency, conciseness. Structural data organization: visual hierarchy and appropriate chart selection. Dashboards are presented as the direction of travel: hierarchical information architecture; high-level metrics and alerts on the overview; detail behind interactive elements; filters for personalized (clinical specialization) information priority. The closing argument: the same visualization work serves two different ends — revealing hidden patterns in research and saving lives in clinical care.
+
+**Skills demonstrated:**
+
+* Writing for a wide audience without losing technical accuracy.
+* Structuring an argument: problem, mechanism, proposed solution.
+* Translating between two professional vocabularies (research and clinical).
+* Referencing in Vancouver style, with nine cited sources spanning peer-reviewed literature, NHS guidance and industry publications.

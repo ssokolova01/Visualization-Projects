@@ -57,7 +57,7 @@ Given a reference table of amino acid molecular weights:
     └── HackBio_Viz_Stage_1_Coding_Task.R
 ```
 
-## **Task 1 — GC content calculator** ##
+## **Task 1 - GC content calculator** ##
 
 Calculates the percentage of G and C bases in a nucleotide sequence, accepting upper case, lower case or mixed input.
 

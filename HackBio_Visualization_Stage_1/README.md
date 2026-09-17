@@ -45,6 +45,11 @@ Table of amino acid molecular weights:
 | Tyrosine | Tyr | Y | 181.19 |
 | Valine | Val | V | 117.15 |
 
+---------------------------------------------------------------------------------------------------------
+
+## **Repository Structure** ##
+```
+
 
 
 

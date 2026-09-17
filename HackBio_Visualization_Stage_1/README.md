@@ -93,7 +93,7 @@ Normalizing input at the boundary of a function, rather than accounting for ever
 
 Splitting the string into a vector of single characters is what makes both the loop and the length calculation possible. 
 
-This is because in R, where `nchar()` (how many letters inside one item) and `length()` (how many items) answer two different questions.
+
 
 
 

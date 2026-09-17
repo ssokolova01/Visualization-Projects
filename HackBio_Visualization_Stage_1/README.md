@@ -49,7 +49,12 @@ Table of amino acid molecular weights:
 
 ## **Repository Structure** ##
 ```
-
+.
+├── README.md
+├── essay/
+│   └── HackBio_Viz_Stage_0_Report_Final.md
+└── scripts/
+    └── Stage_0_Coding_Task.R
 
 
 

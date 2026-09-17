@@ -52,14 +52,48 @@ Given a reference table of amino acid molecular weights:
 .
 ├── README.md
 ├── essay/
-│   └── Stage_1_Essay_AminoAcid.md
+│   └── HackBio_Viz_Stage_1_Essay_AminoAcid.md
 └── scripts/
-    └── HackBio_Stage_1_Coding_Task.R
+    └── HackBio_Viz_Stage_1_Coding_Task.R
 ```
 
+## **Task 1 — GC content calculator** ##
 
+Calculates the percentage of G and C bases in a nucleotide sequence, accepting upper case, lower case or mixed input.
 
+```
+GC_Calculator("CCATGGGTTTCAAATTCG")   # 50
+GC_Calculator("gcatttat")             # 25
+GC_Calculator("gcaTTTAT")             # 25
+```
+**How it works**
 
+1. `toupper()` standardizes the input so case never reaches the comparison logic (everything has already been converted to capitals).
+2. `strsplit(x, split = "")[[1]]` breaks the string into a vector of single characters.
+3. A `for` loop walks the vector, incrementing a counter on each `G` or `C`.
+4. The counter is divided by sequence length and multiplied by 100.
+
+**Two approaches to case handling**
+
+The script contains both, deliberately:
+| Approach | Condition |
+|------------|---------------|
+| Standardize the input | `toupper()` first, then test `nc == 'G' | nc == 'C'` |
+| Extend the condition | test `nc == 'G' | nc == 'C' | nc == 'g' | nc == 'c'` |
+
+Both return the same answers, but they scale differently. 
+
+Standardizing the input keeps the comparison at two cases no matter what arrives; extending the condition doubles the number of comparisons, and would keep doubling if further variants ever needed handling. 
+
+Normalizing input at the boundary of a function, rather than accounting for every variant inside it, is the more general habit.
+
+**Why `strsplit()` is necessary**
+
+`length()` on a character string returns `1`, not the number of characters (R sees one element, not eighteen). 
+
+Splitting the string into a vector of single characters is what makes both the loop and the length calculation possible. 
+
+This is because in R, where `nchar()` (how many letters inside one item) and `length()` (how many items) answer two different questions.
 
 
 

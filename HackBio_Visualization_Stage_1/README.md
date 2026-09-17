@@ -55,7 +55,7 @@ Given a reference table of amino acid molecular weights:
 │   └── Stage_1_Essay_AminoAcid.md
 └── scripts/
     └── HackBio_Stage_1_Coding_Task.R
-
+```
 
 
 

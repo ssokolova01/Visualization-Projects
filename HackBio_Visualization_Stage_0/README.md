@@ -39,3 +39,53 @@ The opening stage of the HackBio Data Visualization in Bio (vizbio) Internship, 
 * Structuring an argument: problem, mechanism, proposed solution.
 * Translating between two professional vocabularies (research and clinical).
 * Referencing in Vancouver style, with nine cited sources spanning peer-reviewed literature, NHS guidance and industry publications.
+
+## **Part 2 - R script: team member information** ##
+
+```
+# Creating a list with team member information
+team_member <- list(
+  name = "Svetlana Sokolova",
+  affiliation = "Queen's University Belfast",
+  favorite_gene = "sim",
+  organism = "Drosophila melanogaster"
+)
+
+# Print team member data in form of sentence
+print(paste0("Hi, my name is ", team_member$name, 
+             ", an alumni from ", team_member$affiliation, 
+             ". My favorite gene is ", team_member$favorite_gene, 
+             " in ", team_member$organism, "."))
+```
+
+**Output**
+```
+[1] "Hi, my name is Svetlana Sokolova, an alumni from Queen's University Belfast. My favorite gene is sim in Drosophila melanogaster."
+```
+
+**What the script demonstrates**
+
+**Why a list rather than a vector?**
+
+* An R vector requires all elements to share a single type, and would flatten a set of related fields into an unlabelled sequence.
+* A list holds named elements and keeps each field independently addressable, which is the appropriate structure for a record describing one entity.
+* Named elements are accessed with `$`, making the code self-documenting: `team_member$affiliation` states what it retrieves.
+
+**Why `paste0()` rather than `paste()`?**
+
+* `paste()` inserts a space separator between arguments by default, which would produce unwanted spaces before punctuation.
+* `paste0()` concatenates with no separator, so spacing and punctuation are controlled explicitly inside the string fragments — necessary to get `"sim in Drosophila melanogaster."` rather than `"sim in Drosophila melanogaster ."`.
+
+**About the gene**
+
+`sim` (single-minded) is a transcription factor in Drosophila melanogaster and a master regulator of central nervous system midline cell development.
+
+**Tools**
+
+Base R only. No external packages required.
+
+```
+source("scripts/team_member_info.R")
+```
+
+*Created as part of the HackBio Data Visualization in Bio (vizbio) Internship (Stage 0).*

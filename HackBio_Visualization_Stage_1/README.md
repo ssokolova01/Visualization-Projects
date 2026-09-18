@@ -117,8 +117,18 @@ Only 20 letters are valid amino acid codes. Characters such as B, J, O, U, X and
 
 The reasoning behind each design decision (data structure choice, default arguments, standardization, validation, accumulation and unit conversion) is written up step by step in the accompanying essay:
 
-Step-by-Step Recipe for Building the Protein Weight Calculator in R
---------------------------------------------------------------------
+**[Step-by-Step Recipe for Building the Protein Weight Calculator in R](Stage_1_Essay_AminoAcid.md)**
+
+## **Skills demonstrated** ##
+
+* Writing reusable functions with default arguments.
+* Iteration with `for` loops and conditional logic.
+* Choosing an appropriate data structure: named vectors for direct lookup rather than data frame search.
+* Defensive input handling: case standardization and validation against a known set.
+* Unit conversion and returning results in the form the field expects (kDa, not Da).
+* Testing across representative cases: default, complete valid input and invalid input.
+
+## **Tools** ##
 
 
 

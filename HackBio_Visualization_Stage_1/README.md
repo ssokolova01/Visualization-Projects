@@ -130,6 +130,11 @@ The reasoning behind each design decision (data structure choice, default argume
 
 ## **Tools** ##
 
+Base R only. No external packages required.
 
+```
+source("HackBio_Stage_1_Coding_Task.R")
+```
 
+*Created as part of the HackBio Data Visualization in Bio (vizbio) Internship (Stage 1).*
 

@@ -41,7 +41,7 @@ Provide the reasoning behind each conceptual check, justifying the decision at e
 
 ## Assignment 2 - Article figure reproduction
 
-Reproduction of Figure 2 (panels a–g) from:
+Reproduction of Figure 2 (panels a-g) from:
 
 > Xiong, Z., Wu, R., Wang, Y. et al. *scIVNL-seq resolves in vivo single-cell RNA dynamics of immune cells during Salmonella infection.* Nat Commun 16, 7937 (2025). https://doi.org/10.1038/s41467-025-63155-1
 
@@ -51,7 +51,7 @@ Reproduction of Figure 2 (panels a–g) from:
 
 **Task 0 - Orientation and data hygiene**
 
-Identify the Figure 2 panels (a–g) in the source paper, inspect the Excel file and map each sheet to a panel. Required packages: `readxl`, `ggplot2`, `pheatmap`, `igraph`. A transparency helper function and a 20-colour HackBio palette (`hb_pal`) were provided for consistent styling.
+Identify the Figure 2 panels (a-g) in the source paper, inspect the Excel file and map each sheet to a panel. Required packages: `readxl`, `ggplot2`, `pheatmap`, `igraph`. A transparency helper function and a 20-colour HackBio palette (`hb_pal`) were provided for consistent styling.
 
 **Task 1 - Panel 2a: cell-type ratio distributions**
 Read sheet `a`. Boxplot of `new_ratio` grouped by `cell_type`, matching label orientation, relative scaling and outlier visibility.

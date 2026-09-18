@@ -96,6 +96,15 @@ Splitting the string into a vector of single characters is what makes both the l
 
 ## **Task 2 - Protein molecular weight calculator** ##
 
+Calculates the molecular weight of a protein from its one-letter amino acid sequence, returning the result in kiloDaltons.
+
+```
+Protein_Weight_Calculator()                        # defaults to "SVETLANA"
+Protein_Weight_Calculator("ACDEFGHIKLMNPQRSTVWY")  # all 20 standard amino acids
+Protein_Weight_Calculator("ACBDEFG")               # invalid character → message + 0
+```
+**Reference data**
+
 
 
 

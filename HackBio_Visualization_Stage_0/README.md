@@ -26,7 +26,7 @@ The article topic was assigned from a set of directions provided by HackBio: *Wh
     └── HackBio_Viz_Stage_0_Coding_Task.R
 ```
 
-## **Part 1 - Technical Essay** ##
+## **Task 1 - Technical Essay** ##
 **Title:** *Visualization for Healthcare Translation*
 
 **Working Topic:** Why Clinicians Ignore Your Beautiful Plots (And How to Fix That)
@@ -52,7 +52,7 @@ The article topic was assigned from a set of directions provided by HackBio: *Wh
 * Translating between two professional vocabularies (research and clinical).
 * Referencing in Vancouver style, with nine cited sources spanning peer-reviewed literature, NHS guidance and industry publications.
 
-## **Part 2 - R script: team member information** ##
+## **Task 2 - R script: team member information** ##
 
 ```
 # Creating a list with team member information

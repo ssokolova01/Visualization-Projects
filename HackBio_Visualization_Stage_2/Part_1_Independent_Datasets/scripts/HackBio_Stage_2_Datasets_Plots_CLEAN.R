@@ -76,7 +76,7 @@ ht <- Heatmap(mat, col = col_fun,
 draw(ht, heatmap_legend_side = "left")
 
 # Save to PNG
-png("Heatmap_Gene_Expression_Analysis.png", width = 7, height = 7, units = "in", res = 300)
+png("01_Heatmap_Gene_Expression_Analysis.png", width = 7, height = 7, units = "in", res = 300)
 draw(ht, heatmap_legend_side = "left")
 dev.off()
 
@@ -136,7 +136,7 @@ p <- ggplot(deg_results,
 
 print(p)
 
-ggsave(filename = "Volcano_Plot_DE_Chromosome22.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
+ggsave(filename = "02_Volcano_Plot_DE_Chromosome22.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
 
 ################################################################################
 
@@ -188,7 +188,7 @@ p <- ggplot(breast_cancer,
 
 print(p)
 
-ggsave(filename = "Scatter_Plot_RadiusVSTexture.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
+ggsave(filename = "03_Scatter_Plot_RadiusVSTexture.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
 
 ################################################################################
 ######################### CORRELATION HEATMAP ##################################
@@ -240,7 +240,7 @@ ht <- Heatmap(cor_matrix,
 draw(ht, heatmap_legend_side = "right")
 
 # Save to PNG
-png("Correlation_Heatmap.png", width = 8, height = 6, units = "in", res = 300)
+png("04_Correlation_Heatmap.png", width = 8, height = 6, units = "in", res = 300)
 draw(ht, heatmap_legend_side = "right")
 dev.off()
 
@@ -286,7 +286,7 @@ p <- ggplot(breast_cancer,
 
 print(p)
 
-ggsave(filename = "Scatter_compactness_vs_smoothness.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
+ggsave(filename = "05_Scatter_compactness_vs_smoothness.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
 
 ################################################################################
 ####################### DENSITY PLOT (area distribution) #######################
@@ -337,7 +337,7 @@ p <- ggplot(breast_cancer,
 
 print(p)
 
-ggsave(filename = "Density_area_mean.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
+ggsave(filename = "06_Density_area_mean.png", plot = p, width = 6, height = 6, dpi = 300, bg = "white")
 
 ################################################################################
 

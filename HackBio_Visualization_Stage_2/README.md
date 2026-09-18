@@ -1,6 +1,6 @@
 # Stage 2 — Data Visualization in R #
 
-**The main visualization stage of the HackBio 2025 bioinformatics internship, made up of two separate assignments:**
+**The main visualization stage of the HackBio Data Visualization in Bio (vizbio) Internship, made up of two separate assignments:**
 
 | | Assignment | Folder |
 |---|---|---|
@@ -10,3 +10,11 @@
 **Each folder has its own README covering the datasets, plot features and the reasoning behind each design decision.**
 
 --------------------------------------------------------------------------------------------------------------------------------------------
+
+## Assignment 1 — Independent dataset analysis ##
+
+Datasets
+Gene expression (heatmap and volcano plot)
+Normalized counts for HBR vs UHR samples
+Differential expression results, chromosome 22
+Breast Cancer Wisconsin (Diagnostic) (correlation, scatter and density plots)

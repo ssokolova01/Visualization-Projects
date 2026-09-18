@@ -15,8 +15,8 @@
 
 ### Datasets
 1. **Gene expression** (heatmap and volcano plot)
-* Normalized counts for HBR vs UHR samples
-* Differential expression results, chromosome 22
+  * Normalized counts for HBR vs UHR samples
+  * Differential expression results, chromosome 22
 2. **Breast Cancer Wisconsin (Diagnostic)** (correlation, scatter and density plots)
 
 ### Brief

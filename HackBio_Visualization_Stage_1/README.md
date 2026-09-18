@@ -105,11 +105,20 @@ Protein_Weight_Calculator("ACBDEFG")               # invalid character → messa
 ```
 **Reference data**
 
+`Amino_Acid.csv` holds the amino acid name, three-letter code, one-letter code and molecular weight in Daltons for the 20 standard amino acids. Protein sequences are conventionally written in one-letter code, so the calculator needs a way to map each letter to its weight. That mapping is built with `setNames()`, producing a named vector where the letters are names and the weights are values. So `aa_weights["A"]` retrieves a weight directly, with no searching through a data frame row by row.
 
+Note that `read.csv()` transformes the header names: `1-Letter Code` becomes `X1.Letter.Code` and `Weight (Da)` becomes `Weight..Da.`, since R identifiers cannot begin with a digit or contain spaces and parentheses.
 
+**Input validation**
 
+Only 20 letters are valid amino acid codes. Characters such as B, J, O, U, X and Z are not. Each character is tested against the names of the reference vector with `%in%`; on an invalid character the function reports which one it found and returns 0, as the brief requires, rather than silently producing a weight computed from an incomplete sequence. Zero is safe as a sentinel here because no real protein has zero mass, so the value cannot be mistaken for a legitimate result.
 
+**Full walkthrough**
 
+The reasoning behind each design decision (data structure choice, default arguments, standardization, validation, accumulation and unit conversion) is written up step by step in the accompanying essay:
+
+Step-by-Step Recipe for Building the Protein Weight Calculator in R
+--------------------------------------------------------------------
 
 
 

@@ -94,6 +94,7 @@ Normalizing input at the boundary of a function, rather than accounting for ever
 Splitting the string into a vector of single characters is what makes both the loop and the length calculation possible. 
 
 
+## **Task 2 - Protein molecular weight calculator** ##
 
 
 

@@ -1,14 +1,12 @@
 # Install and load required packages
 install.packages("ggplot2")
 install.packages("dplyr")
-install.packages("pheatmap")
 
 # ComplexHeatmap requires Bioconductor
 BiocManager::install("ComplexHeatmap")
 
 library(ggplot2)
 library(dplyr)
-library(pheatmap)
 library(ComplexHeatmap)
 library(grid)
 

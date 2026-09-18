@@ -117,7 +117,7 @@ Only 20 letters are valid amino acid codes. Characters such as B, J, O, U, X and
 
 The reasoning behind each design decision (data structure choice, default arguments, standardization, validation, accumulation and unit conversion) is written up step by step in the accompanying essay:
 
-**[Step-by-Step Recipe for Building the Protein Weight Calculator in R](Stage_1_Essay_AminoAcid.md)**
+**[Step-by-Step Recipe for Building the Protein Weight Calculator in R](HackBio_Viz_Stage_1_Essay_AminoAcid.md)**
 
 ## **Skills demonstrated** ##
 
@@ -133,7 +133,7 @@ The reasoning behind each design decision (data structure choice, default argume
 Base R only. No external packages required.
 
 ```
-source("HackBio_Stage_1_Coding_Task.R")
+source("HackBio_Viz_Stage_1_Coding_Task.R")
 ```
 
 *Created as part of the HackBio Data Visualization in Bio (vizbio) Internship (Stage 1).*

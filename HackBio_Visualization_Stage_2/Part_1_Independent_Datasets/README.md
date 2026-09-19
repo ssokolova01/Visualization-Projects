@@ -249,7 +249,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 * Both `fill` and `color` mapped to diagnosis, so each curve has a matching outline and shaded area (M = #4C96D7, B = #F4803C).
 * Fill transparency (alpha 0.4) keeps the overlapping region readable.
 * Y-axis formatted to five decimal places with no expansion at the baseline, so the curves sit on the axis.
-* X-axis limited to 0–3000 with breaks every 1000.
+* X-axis limited to 0-3000 with breaks every 1000.
 * Legend order reversed, positioned inside the plot at the top right with a grey border.
 * Labelled axes, aspect ratio fixed at 1, black panel border.
 

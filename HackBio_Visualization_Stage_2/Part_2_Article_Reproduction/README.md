@@ -170,7 +170,7 @@ Column naming format: `[CellType]n[Time]`, e.g. `Macrophagen00h`. Cell type and 
 
 ### Conceptual reasoning
 
-**Why cluster rows but not columns?**
+**Why cluster genes (rows) but not time (columns)?**
 * Genes (rows) are clustered to group similar patterns — genes that activate or suppress together likely share regulatory mechanisms
 * Columns keep their original order so that cell types stay grouped and the time sequence (0h → 72h) is preserved within each cell type
 * Clustering columns would reorder them by similarity instead of by time, mixing the timeline up and making temporal patterns impossible to see

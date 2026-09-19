@@ -27,7 +27,7 @@ All three datasets are read directly from URLs in the HackBio project collection
 
 ## Datasets
 
-**1. Normalized gene expression counts** (`hbr_uhr_top_deg_normalized_counts.csv`).
+**1. Normalized gene expression counts** (`hbr_uhr_top_deg_normalized_counts.csv`) - Plot 1
   * 12 differentially expressed genes (rows) × 6 samples (columns).
   * Two conditions: HBR (Human Brain Reference) and UHR (Universal Human Reference), 3 replicates each.
   * Column naming: `[Tissue]_[Replicate]`, e.g. `HBR_1`, `UHR_2`.
@@ -35,12 +35,12 @@ All three datasets are read directly from URLs in the HackBio project collection
 
 HBR is brain tissue, rich in neurons; UHR is a mixture of cancer cell lines with no neuronal component. Genes high in HBR and near zero in UHR are typically brain-specific.
 
-**2. Differential expression results, chromosome 22** (`hbr_uhr_deg_chr22_with_significance.csv`)
+**2. Differential expression results, chromosome 22** (`hbr_uhr_deg_chr22_with_significance.csv`) - Plot 2
   * Columns: `log2FoldChange`, `PAdj`, `-log10PAdj`, `significance`.
   * `PAdj` is the adjusted p-value (corrected for multiple testing); `-log10PAdj` is the transformed value used for the volcano plot y-axis.
   * `significance` is a categorical label with three levels: `up`, `down`, `ns`.
 
-**3. Breast Cancer Wisconsin (Diagnostic) Dataset** (`data-3.csv`)
+**3. Breast Cancer Wisconsin (Diagnostic) Dataset** (`data-3.csv`) - Plot 3-6
   * 569 patient samples, 30 features measuring cell nucleus characteristics.
   * Features derived from digitized fine needle aspirate (FNA) microscopy images: radius, texture, perimeter, area, smoothness, compactness and others.
   * Binary classification: malignant (M) vs benign (B).

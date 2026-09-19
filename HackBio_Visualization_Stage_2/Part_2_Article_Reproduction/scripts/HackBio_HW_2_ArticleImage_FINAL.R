@@ -213,7 +213,7 @@ par(mar = c(4, 4, 2, 1))
 graphics.off() 
 
 # Save to PNG
-png("panel_2c_boxplot.png", width = 900, height = 1000, res = 150)
+png("panel_2c_heatmap.png", width = 900, height = 1000, res = 150)
 
 # Create the heatmap
 pheatmap(

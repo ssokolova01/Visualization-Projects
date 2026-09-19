@@ -272,7 +272,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Final assembly
 
-<img src="figures/Final_Figure_Assembled_Datasets.png" width="800">
+<img src="figures/Final_Figure_Assembled_Datasets.png" width="1000">
 
 The six saved PNG panels are re-imported with `cowplot::draw_image()` and arranged by `patchwork` into a two-row grid (a, b, c on top; d, e, f below), tagged a–f, and exported at 24 × 13 inches at 300 dpi.
 

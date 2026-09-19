@@ -13,7 +13,7 @@ library(pheatmap)
 library(igraph)
 library(dplyr)
 
-excel_file <- "hb_stage_2.xlsx"
+excel_file <- "dataset/hb_stage_2.xlsx"
 
 ###############################################################
 

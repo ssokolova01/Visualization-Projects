@@ -65,7 +65,7 @@ Each task saves its panel as a PNG; the final section assembles all seven into o
 
 ## Panel 2a — Boxplot: cell-type ratio distributions
 
-<img src="figures/panel_2a_boxplot.png" width="600">
+<img src="figures/panel_2a_boxplot.png" width="800">
 
 ### Dataset & Biology
 - 6,796 immune cells from mouse bone marrow

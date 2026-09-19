@@ -1,8 +1,8 @@
 # Bioinformatics Visualization in R - Independent Dataset Analysis
 
-Exploratory visualization of two independent datasets: RNA-seq gene expression data (HBR vs UHR) and the Breast Cancer Wisconsin (Diagnostic) dataset.
+**Exploratory visualization of two independent datasets: RNA-seq gene expression data (HBR vs UHR) and the Breast Cancer Wisconsin (Diagnostic) dataset.**
 
-Created as part of the HackBio Data Visualization in Bio (vizbio) Internship (Stage 2).
+**Created as part of the HackBio Data Visualization in Bio (vizbio) Internship (Stage 2).**
 
 ------------------------------------------------------------------------------------------
 
@@ -62,6 +62,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Plot 1 — Gene expression heatmap
 
+<img src="figures/01_Heatmap_Gene_Expression_Analysis.png" width="500">
 ![Heatmap](figures/01_Heatmap_Gene_Expression_Analysis.png)
 
 ### Dataset & Biology

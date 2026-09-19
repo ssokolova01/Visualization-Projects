@@ -56,7 +56,7 @@ library(ggplot2); library(dplyr); library(ComplexHeatmap); library(grid)
 source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 ```
 
-**Note on graphics systems:** `ggplot2` plots are saved with `ggsave()`, but `ComplexHeatmap` uses the grid graphics system and requires `png()` → `draw()` → `dev.off()`. Mixing these up produces blank or empty output files. The same distinction matters at assembly time: the saved PNGs are re-imported with `ggdraw() + draw_image()` so that grid-based and ggplot-based panels can be combined by `patchwork`.
+**Note on graphics systems:** `ggplot2` plots are saved with `ggsave()`, but `ComplexHeatmap` uses the grid graphics system and requires `png()` -> `draw()` -> `dev.off()`. Mixing these up produces blank or empty output files. The same distinction matters at assembly time: the saved PNGs are re-imported with `ggdraw() + draw_image()` so that grid-based and ggplot-based panels can be combined by `patchwork`.
 
 -----------------------------------------------------------------
 
@@ -73,7 +73,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 * Selective gene labelling (only 6 genes of interest are named on the Y axis out of 12 total genes displayed).
 * Colour gradient applied to indicate normalized expression levels (Low: white, High: dark blue), built with `colorRampPalette(c("white", "lightblue", "steelblue", "darkblue"))`.
 * Hierarchical clustering dendrograms displayed for both genes (left) and samples (top).
-* Samples ordered HBR_1–HBR_3 then UHR_1–UHR_3 while preserving the dendrogram structure.
+* Samples ordered HBR_1-HBR_3 then UHR_1-UHR_3 while preserving the dendrogram structure.
 * Colorbar legend placed on the left, showing the normalized count scale with ticks at 0 and 500.
 * Thin black cell borders separate the tiles.
 * Gene labels on the right, sample labels rotated 90° at the bottom, font size 9.
@@ -137,11 +137,11 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 **The `fill` vs `color` trap in ggplot2**
 * Adding white borders to points requires `shape = 21`, which unlocks two independent colour channels: `color` controls the border, `fill` controls the interior.
 * The default `shape = 16` has only `color`, so switching to 21 means changing `aes(color =)` to `aes(fill =)` and `scale_color_manual()` to `scale_fill_manual()` throughout.
-* This applies to all hollow shapes in R (21–25), not just circles.
+* This applies to all hollow shapes in R (21-25), not just circles.
 
 **Why `coord_cartesian()` for the axis range?**
 * Setting limits through `scale_x_continuous(limits = ...)` removes data points outside the range before the plot is drawn, which silently changes what is shown.
-* `coord_cartesian()` zooms the view while keeping all data in the calculation — the correct choice whenever the aim is framing rather than filtering.
+* `coord_cartesian()` zooms the view while keeping all data in the calculation - the correct choice whenever the aim is framing rather than filtering.
 
 --------------------------------------------------------------------------------------------------------
 
@@ -158,7 +158,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 * Points drawn with `shape = 21`: white border (stroke 0.8), fill by diagnosis, size 3.3.
 * Colour coding: M = blue (#4C96D7), B = orange (#F4803C).
 * Legend order reversed so that B appears above M, positioned inside the plot at the top right with a grey border.
-* `theme_classic()` — no gridlines — with a black panel border added back.
+* `theme_classic()` - no gridlines, with a black panel border added back.
 * Aspect ratio fixed at 1; axis breaks set manually every 5 units.
 * Axis range set with `coord_cartesian()` so no points are dropped.
 
@@ -186,12 +186,12 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 ### Plot features
 * Pairwise Pearson correlation coefficients displayed as a 6×6 symmetric matrix.
 * Correlation values annotated inside each tile, one decimal place, font size 9.
-* Tile colour encodes correlation strength (white → #c6dbef → #6baed6 → #2171b5).
+* Tile colour encodes correlation strength (white -> #c6dbef -> #6baed6 -> #2171b5).
 * Font colour switches to white for tiles above 0.4 for improved readability against the darker blues.
 * Colorbar legend on the right, scale 0.0 to 1.0 with labelled ticks and no border.
 * Black cell borders create a visible grid.
 * Row names on the left, column names rotated 90°.
-* No clustering applied — original feature order preserved.
+* No clustering applied - original feature order preserved.
 
 ### Conceptual reasoning
 

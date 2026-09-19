@@ -1,12 +1,12 @@
-# Bioinformatics Visualization in R — Reproduction of a Seven-Panel Figure
+# Bioinformatics Visualization in R - Reproduction of a Seven-Panel Figure
 
-Reproduction of seven visualization panels based on:
+**Reproduction of seven visualization panels based on:**
 
-> Xiong, Z., Wu, R., Wang, Y. et al. *scIVNL-seq resolves in vivo single-cell RNA dynamics of immune cells during Salmonella infection.* Nat Commun 16, 7937 (2025). https://doi.org/10.1038/s41467-025-63155-1
+> **Xiong, Z., Wu, R., Wang, Y. et al. *scIVNL-seq resolves in vivo single-cell RNA dynamics of immune cells during Salmonella infection.* Nat Commun 16, 7937 (2025). https://doi.org/10.1038/s41467-025-63155-1**
 
-Created as part of the HackBio Data Visualization in Bio (vizbio) Internship (Stage 2).
+**Created as part of the HackBio Data Visualization in Bio (vizbio) Internship (Stage 2).**
 
-The study used scIVNL-seq, a single-cell RNA labelling sequencing method, to measure RNA synthesis and degradation in immune cells during acute enteric *Salmonella* infection, tracking RNA stability dynamics across multiple immune cell types over 72 hours.
+**The study used scIVNL-seq, a single-cell RNA labelling sequencing method, to measure RNA synthesis and degradation in immune cells during acute enteric *Salmonella* infection, tracking RNA stability dynamics across multiple immune cell types over 72 hours.**
 
 ---------------------------------------------------------------------------------------------
 

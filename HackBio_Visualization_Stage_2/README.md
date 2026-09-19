@@ -37,7 +37,7 @@ HackBio_Visualization_Stage_2/
     └── figures/
         ├── panel_2a_boxplot.png
         ├── panel_2b_scatterplot.png
-        ├── panel_2c_boxplot.png
+        ├── panel_2c_heatmap.png
         ├── panel_2d_pathwayheatmap.png
         ├── panel_2e_bubble_plot.png
         ├── panel_2f_barchart.png

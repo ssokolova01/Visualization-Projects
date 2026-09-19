@@ -71,7 +71,7 @@ print(paste0("Hi, my name is ", team_member$name,
 ```
 
 **Output**
-```
+```r
 [1] "Hi, my name is Svetlana Sokolova, an alumni from Queen's University Belfast. My favorite gene is sim in Drosophila melanogaster."
 ```
 

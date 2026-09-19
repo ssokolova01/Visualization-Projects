@@ -40,7 +40,7 @@ HBR is brain tissue, rich in neurons; UHR is a mixture of cancer cell lines with
   * `PAdj` is the adjusted p-value (corrected for multiple testing); `-log10PAdj` is the transformed value used for the volcano plot y-axis.
   * `significance` is a categorical label with three levels: `up`, `down`, `ns`.
 
-**3. Breast Cancer Wisconsin (Diagnostic) Dataset** (`data-3.csv`) - Plot 3-6
+**3. Breast Cancer Wisconsin (Diagnostic) Dataset** (`data-3.csv`) - Plots 3-6
   * 569 patient samples, 30 features measuring cell nucleus characteristics.
   * Features derived from digitized fine needle aspirate (FNA) microscopy images: radius, texture, perimeter, area, smoothness, compactness and others.
   * Binary classification: malignant (M) vs benign (B).

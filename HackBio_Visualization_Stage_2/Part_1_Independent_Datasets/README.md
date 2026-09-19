@@ -147,7 +147,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Plot 3 — Scatter plot: radius vs texture
 
-![Scatter radius vs texture](figures/03_Scatter_Plot_RadiusVSTexture.png)
+<img src="figures/03_Scatter_Plot_RadiusVSTexture.png" width="600">
 
 ### Dataset & Biology
 * Breast Cancer Wisconsin (Diagnostic) dataset: 569 tumor samples.

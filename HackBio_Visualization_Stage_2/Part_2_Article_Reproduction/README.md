@@ -342,6 +342,41 @@ An adjacency matrix is a network data format in which rows and columns are both 
 
 -----------------------------------------------------------------------------------------------------------------------
 
+## Task 8 — Final assembly
+
+<img src="figures/final_figure_assembled_1.png" width="100%">
+
+### What the brief required
+
+Arrange all seven panels into a single figure with consistent colour usage, readable labels and no clipping, exported at publication quality for sharing.
+
+### How it was built
+
+- Each panel is first saved as its own PNG, then re-imported with `cowplot::ggdraw() + draw_image()` so that every panel becomes a ggplot object
+- `patchwork` arranges them in two rows: panels a, b, d, e on top; c, f, g below
+- Panel letters are added with `plot_annotation(tag_levels = ...)`, placed at the top-left corner of each panel in plain 18 pt text
+- A 20 pt margin around every panel keeps neighbouring panels from touching
+- Exported with `ggsave()` at 24 × 13 inches and 300 dpi
+
+### Conceptual reasoning
+
+**Why assemble from saved PNGs rather than live plot objects?**
+- The seven panels come from three different graphics systems: base R (2a boxplot, 2g network), grid through `pheatmap` (2c, 2d) and `ggplot2` (2b, 2e, 2f)
+- `patchwork` only combines ggplot objects. Passing a `pheatmap` result directly fails with *"non-numeric argument to binary operator"*
+- Converting each saved PNG back into a ggplot object puts all seven on common ground, and guarantees each panel appears exactly as it was individually tuned
+
+**Why this panel order instead of a–g left to right?**
+- The layout follows the original article figure, where the tall temporal heatmap (2c) sits in the bottom row alongside 2f and 2g
+- Because the panels are therefore not placed in alphabetical order, the letters are supplied explicitly as a list (`a, b, d, e, c, f, g`) matching their positions, so each panel carries its correct label regardless of where it sits
+
+**How the brief's checks are met**
+- *Consistent colour usage:* all panels draw from the HackBio palette (`hb_pal`), and repeated meanings keep the same colours across panels — for example, `#4e79a7` blue marks Plasma cells in 2f and the 6h timepoint in 2e, and `#fabfd2` pink is shared by B cells in 2f and the network nodes in 2g
+- *Readable labels:* axis text in the ggplot panels is set to 14 pt and the panel tags to 18 pt, sized for the figure's final 24-inch width rather than for each panel alone
+- *No clipping:* the per-panel margins leave room around every image, and each panel was checked individually before assembly
+- *Publication quality:* 300 dpi at 24 × 13 inches is above standard journal print resolution
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 ## Tools
 
 | Package | Use |

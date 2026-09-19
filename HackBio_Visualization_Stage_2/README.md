@@ -11,6 +11,44 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+## Repository structure
+
+```r
+HackBio_Visualization_Stage_2/
+├── README.md
+├── Part_1_Independent_Datasets/
+│   ├── README.md
+│   ├── scripts/
+│   │   └── HackBio_Stage_2_Datasets_Plots_CLEAN.R
+│   └── figures/
+│       ├── 01_Heatmap_Gene_Expression_Analysis.png
+│       ├── 02_Volcano_Plot_DE_Chromosome22.png
+│       ├── 03_Scatter_Plot_RadiusVSTexture.png
+│       ├── 04_Correlation_Heatmap.png
+│       ├── 05_Scatter_compactness_vs_smoothness.png
+│       ├── 06_Density_area_mean.png
+│       └── Final_Figure_Assembled_Datasets.png
+└── Part_2_Article_Reproduction/
+    ├── README.md
+    ├── dataset/
+    │   └── hb_stage_2.xlsx
+    ├── scripts/
+    │   └── HackBio_HW_2_ArticleImage_FINAL.R
+    └── figures/
+        ├── panel_2a_boxplot.png
+        ├── panel_2b_scatterplot.png
+        ├── panel_2c_boxplot.png
+        ├── panel_2d_pathwayheatmap.png
+        ├── panel_2e_bubble_plot.png
+        ├── panel_2f_barchart.png
+        ├── panel_2g_network.png
+        └── final_figure_assembled_1.png
+```
+
+Part 1 has no dataset folder: its three datasets are read directly from URLs in the HackBio project collection.
+
+-----------------------------------------------------------------------------------------------
+
 ## Assignment 1 - Independent dataset analysis ##
 
 ### Datasets

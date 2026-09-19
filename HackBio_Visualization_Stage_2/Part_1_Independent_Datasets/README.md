@@ -238,7 +238,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Plot 6 — Density plot: nucleus area distribution
 
-![Density plot](figures/06_Density_area_mean.png)
+<img src="figures/06_Density_area_mean.png" width="600">
 
 ### Dataset & Biology
 * Distribution of cell nucleus area (`area_mean`) across malignant and benign breast tumor samples.

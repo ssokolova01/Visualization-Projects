@@ -228,7 +228,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 **Why `theme_bw()` here but `theme_classic()` for the other scatter plot?**
 * `theme_classic()` removes gridlines; the reference figure for this panel has them.
-* Gridlines help read values off a scatter plot whose axes span narrow numeric ranges (0.05–0.16 and 0.02–0.35), where position alone is hard to translate into a number.
+* Gridlines help read values off a scatter plot whose axes span narrow numeric ranges (0.05-0.16 and 0.02-0.35), where position alone is hard to translate into a number.
 
 **Consistent encoding across panels**
 * The same colour pair, point shape, border and size are used as in the radius vs texture plot, so a reader moving between the two panels does not have to relearn the visual language.

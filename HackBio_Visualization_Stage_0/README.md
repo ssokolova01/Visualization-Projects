@@ -17,7 +17,7 @@ The article topic was assigned from a set of directions provided by HackBio: *Wh
 ----------------------------------------------------------------------------------------------------------------------
 
 ## **Repository structure** ##
-```
+```r
 .
 ├── README.md
 ├── essay/

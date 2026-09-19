@@ -48,7 +48,7 @@ Given a reference table of amino acid molecular weights:
 ---------------------------------------------------------------------------------------------------------
 
 ## **Repository Structure** ##
-```
+```r
 .
 ├── README.md
 ├── essay/
@@ -61,7 +61,7 @@ Given a reference table of amino acid molecular weights:
 
 Calculates the percentage of G and C bases in a nucleotide sequence, accepting upper case, lower case or mixed input.
 
-```
+```r
 GC_Calculator("CCATGGGTTTCAAATTCG")   # 50
 GC_Calculator("gcatttat")             # 25
 GC_Calculator("gcaTTTAT")             # 25
@@ -98,7 +98,7 @@ Splitting the string into a vector of single characters is what makes both the l
 
 Calculates the molecular weight of a protein from its one-letter amino acid sequence, returning the result in kiloDaltons.
 
-```
+```r
 Protein_Weight_Calculator()                        # defaults to "SVETLANA"
 Protein_Weight_Calculator("ACDEFGHIKLMNPQRSTVWY")  # all 20 standard amino acids
 Protein_Weight_Calculator("ACBDEFG")               # invalid character → message + 0
@@ -132,7 +132,7 @@ The reasoning behind each design decision (data structure choice, default argume
 
 Base R only. No external packages required.
 
-```
+```r
 source("HackBio_Viz_Stage_1_Coding_Task.R")
 ```
 

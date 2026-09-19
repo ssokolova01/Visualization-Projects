@@ -149,9 +149,7 @@ The column labelled `cell` in this sheet actually contains gene names (Ccr2, Cam
 
 ## Panel 2c — Complex heatmap: temporal gene expression
 
-<img src="figures/panel_2c_boxplot.png" width="600">
-
-*(The filename carries `boxplot` from the script structure; the panel is a heatmap.)*
+<img src="figures/panel_2c_heatmap.png" width="600">
 
 ### Dataset & Biology
 * 257 differentially expressed genes

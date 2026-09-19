@@ -103,7 +103,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Plot 2 — Volcano plot: differential expression on chromosome 22
 
-![Volcano plot](figures/02_Volcano_Plot_DE_Chromosome22.png)
+<img src="figures/02_Volcano_Plot_DE_Chromosome22.png" width="800">
 
 ### Dataset & Biology
 * Differential expression statistics for chromosome 22 genes.

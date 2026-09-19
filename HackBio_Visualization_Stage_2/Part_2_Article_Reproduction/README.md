@@ -226,7 +226,7 @@ Column naming format: `[CellType]n[Time]`, e.g. `Macrophagen00h`. Cell type and 
 
 ## Panel 2e — Bubble plot: process-level RNA kinetics
 
-![Panel 2e](figures/panel_2e_bubble_plot.png)
+<img src="figures/panel_2e_bubble_plot.png" width="600">
 
 ### Dataset & Biology
 - 22 biological processes (rows)

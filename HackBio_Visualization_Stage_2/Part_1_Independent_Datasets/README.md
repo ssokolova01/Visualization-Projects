@@ -211,7 +211,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Plot 5 — Scatter plot: smoothness vs compactness
 
-![Scatter smoothness vs compactness](figures/05_Scatter_compactness_vs_smoothness.png)
+<img src="figures/05_Scatter_compactness_vs_smoothness.png" width="600">
 
 ### Dataset & Biology
 * `smoothness_mean` and `compactness_mean` describe the contour regularity and shape compactness of cell nuclei.

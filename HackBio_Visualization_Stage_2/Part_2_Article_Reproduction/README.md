@@ -206,7 +206,7 @@ Column naming format: `[CellType]n[Time]`, e.g. `Macrophagen00h`. Cell type and 
 
 ### Conceptual reasoning
 
-**Why no clustering at all?**
+**Why no clustering here?**
 * *Columns:* the timepoint sequence must remain intact to show how pathways respond across infection — activation, peak, and resolution phases
 * *Rows:* the original pathway order keeps related biological processes together; clustering would regroup them by temporal pattern and obscure those functional relationships
 

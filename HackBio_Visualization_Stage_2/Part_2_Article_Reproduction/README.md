@@ -131,7 +131,7 @@ The column labelled `cell` in this sheet actually contains gene names (Ccr2, Cam
 * Normalizes exponential decay kinetics into linear relationships
 * Standard approach for RNA kinetics analysis
 
-**Why quadrant division?**
+**What do the four quadrants mean?**
 * Manually chosen cutoffs (half-life = 2.5, alpha = −3.5) separate transcripts into four kinetic regimes
 * Each quadrant represents a distinct **RNA regulatory strategy**, i.e. post-transcriptional control through stability and degradation
 * Half-life and alpha are inversely related: long half-life + low alpha = stable; short half-life + high alpha = unstable

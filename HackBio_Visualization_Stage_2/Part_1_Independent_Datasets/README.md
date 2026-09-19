@@ -60,7 +60,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 -----------------------------------------------------------------
 
-## Plot 1 — Gene expression heatmap
+## Plot 1 - Gene expression heatmap
 
 <img src="figures/01_Heatmap_Gene_Expression_Analysis.png" width="800">
 
@@ -101,7 +101,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-## Plot 2 — Volcano plot: differential expression on chromosome 22
+## Plot 2 - Volcano plot: differential expression on chromosome 22
 
 <img src="figures/02_Volcano_Plot_DE_Chromosome22.png" width="600">
 
@@ -145,7 +145,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 --------------------------------------------------------------------------------------------------------
 
-## Plot 3 — Scatter plot: radius vs texture
+## Plot 3 - Scatter plot: radius vs texture
 
 <img src="figures/03_Scatter_Plot_RadiusVSTexture.png" width="600">
 
@@ -174,7 +174,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ------------------------------------------------------------------------------------------
 
-## Plot 4 — Correlation heatmap
+## Plot 4 - Correlation heatmap
 
 <img src="figures/04_Correlation_Heatmap.png" width="1000">
 
@@ -209,7 +209,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ------------------------------------------------------------------------------------------------------------
 
-## Plot 5 — Scatter plot: smoothness vs compactness
+## Plot 5 - Scatter plot: smoothness vs compactness
 
 <img src="figures/05_Scatter_compactness_vs_smoothness.png" width="600">
 
@@ -236,7 +236,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ---------------------------------------------------------------------------------------------------------------------
 
-## Plot 6 — Density plot: nucleus area distribution
+## Plot 6 - Density plot: nucleus area distribution
 
 <img src="figures/06_Density_area_mean.png" width="600">
 

@@ -96,7 +96,7 @@ print(paste0("Hi, my name is ", team_member$name,
 
 Base R only. No external packages required.
 
-```
+```r
 source("scripts/team_member_info.R")
 ```
 

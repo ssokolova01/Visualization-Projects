@@ -266,7 +266,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 * Reproducing this plot from Python gave a different Y-axis peak (~0.003 in R vs ~0.00175 in Python) from identical data.
 * R uses Silverman's rule for bandwidth selection by default; Python's seaborn uses Scott's rule.
 * A wider bandwidth produces a flatter curve with a lower peak, which is what R's default gives here.
-* These are two different mathematical approaches to smoothing, producing visually different plots and biologically identical conclusions — the distribution and the comparison between groups are unchanged.
+* These are two different mathematical approaches to smoothing, producing visually different plots and biologically identical conclusions - the distribution and the comparison between groups are unchanged.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 

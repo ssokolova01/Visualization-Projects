@@ -149,7 +149,7 @@ The column labelled `cell` in this sheet actually contains gene names (Ccr2, Cam
 
 ## Panel 2c — Complex heatmap: temporal gene expression
 
-![Panel 2c](figures/panel_2c_boxplot.png)
+<img src="figures/panel_2c_boxplot.png" width="600">
 
 *(The filename carries `boxplot` from the script structure; the panel is a heatmap.)*
 

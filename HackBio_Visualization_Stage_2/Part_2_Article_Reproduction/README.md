@@ -104,7 +104,7 @@ The `cell` column holds single-cell barcodes (e.g. `n00h_CAGATCTGCTCAATGATGGCTTC
 
 ## Panel 2b — Scatter plot: RNA kinetic regimes
 
-![Panel 2b](figures/panel_2b_scatterplot.png)
+<img src="figures/panel_2b_scatterplot.png" width="800">
 
 ### Dataset & Biology
 - 7,326 RNA transcripts with RNA kinetic parameters

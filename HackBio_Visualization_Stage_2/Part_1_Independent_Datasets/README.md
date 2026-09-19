@@ -62,9 +62,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Plot 1 — Gene expression heatmap
 
-<img src="figures/01_Heatmap_Gene_Expression_Analysis.png" width="500">
-
-![Heatmap](figures/01_Heatmap_Gene_Expression_Analysis.png)
+<img src="figures/01_Heatmap_Gene_Expression_Analysis.png" width="800">
 
 ### Dataset & Biology
 * 12 differentially expressed genes across 6 samples (3 HBR, 3 UHR).

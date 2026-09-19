@@ -274,7 +274,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 <img src="figures/Final_Figure_Assembled_Datasets.png" width="1000">
 
-The six saved PNG panels are re-imported with `cowplot::draw_image()` and arranged by `patchwork` into a two-row grid (a, b, c on top; d, e, f below), tagged a–f, and exported at 24 × 13 inches at 300 dpi.
+The six saved PNG panels are re-imported with `cowplot::draw_image()` and arranged by `patchwork` into a two-row grid (a, b, c on top; d, e, f below), tagged a-f, and exported at 24 × 13 inches at 300 dpi.
 
 Re-importing saved images rather than combining live plot objects is what allows the grid-based `ComplexHeatmap` panels and the `ggplot2` panels to sit in the same figure, and it also guarantees that each panel appears exactly as it was individually tuned.
 

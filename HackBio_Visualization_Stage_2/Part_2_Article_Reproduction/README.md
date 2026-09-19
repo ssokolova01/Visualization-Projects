@@ -305,7 +305,7 @@ Column naming format: `[CellType]n[Time]`, e.g. `Macrophagen00h`. Cell type and 
 
 ## Panel 2g — Directed cell–cell interaction network
 
-<img src="figures/panel_2g_network.png" width="600">
+<img src="figures/panel_2g_network.png" width="700">
 
 ### Dataset & Biology
 - 7×7 adjacency matrix: cell–cell interaction data for 7 cell types

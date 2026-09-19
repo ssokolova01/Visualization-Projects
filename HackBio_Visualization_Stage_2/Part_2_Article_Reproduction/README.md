@@ -265,7 +265,7 @@ Column naming format: `[CellType]n[Time]`, e.g. `Macrophagen00h`. Cell type and 
 
 ## Panel 2f — Stacked bar chart: B to Plasma cell proportions
 
-<img src="figures/panel_2f_barchart.png" width="600">
+<img src="figures/panel_2f_barchart.png" width="500">
 
 ### Dataset & Biology
 - B cell and Plasma cell proportion measurements

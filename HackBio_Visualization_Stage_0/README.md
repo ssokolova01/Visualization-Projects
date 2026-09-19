@@ -54,7 +54,7 @@ The article topic was assigned from a set of directions provided by HackBio: *Wh
 
 ## **Task 2 - R script: team member information** ##
 
-```
+```r
 # Creating a list with team member information
 team_member <- list(
   name = "Svetlana Sokolova",

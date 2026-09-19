@@ -176,7 +176,7 @@ source("scripts/HackBio_Stage_2_Datasets_Plots_CLEAN.R")
 
 ## Plot 4 — Correlation heatmap
 
-![Correlation heatmap](figures/04_Correlation_Heatmap.png)
+<img src="figures/04_Correlation_Heatmap.png" width="600">
 
 ### Dataset & Biology
 * Pairwise correlations between six key morphological features of breast tumor cell nuclei: radius, texture, perimeter, area, smoothness and compactness.

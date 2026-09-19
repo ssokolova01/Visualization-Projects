@@ -189,7 +189,7 @@ Column naming format: `[CellType]n[Time]`, e.g. `Macrophagen00h`. Cell type and 
 
 ## Panel 2d — Pathway enrichment heatmap
 
-![Panel 2d](figures/panel_2d_pathwayheatmap.png)
+<img src="figures/panel_2d_pathwayheatmap.png" width="600">
 
 ### Dataset & Biology
 - 20 biological pathways (rows)

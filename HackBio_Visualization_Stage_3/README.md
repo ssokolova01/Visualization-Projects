@@ -83,7 +83,7 @@ No further setup is needed: the app reads its three CSV files from its own folde
 
 **Single cell type selected** — B_cell, coloured by its marker gene `Gene_10` (diff = 3.11), with the other clusters greyed out and the per-gene statistics ranked below:
 
-<img src="figures/B_Cells_Selected_View_R.png" width="580">
+<img src="figures/B_Cells_Selected_View_R.png" width="600">
 
 ---
 

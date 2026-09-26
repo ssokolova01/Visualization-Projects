@@ -4,13 +4,13 @@
 # Final Version
 # ==============================================================================
 # Folder structure:
-#   shiny_app/
+#   Shiny_Cell_Types_Snapshot/
 #     app.R
 #     cell_metadata.csv
 #     expression_matrix.csv
 #     umap_coordinates.csv
 # 
-# Run with: shiny::runApp("shiny_app")
+# Run with: shiny::runApp("Shiny_Cell_Types_Snapshot")
 # ==============================================================================
 
 library(shiny)
@@ -22,7 +22,7 @@ library(DT)
 # STEP 1: Create a project folder (contains app.R and 3 CSV files)
 # ==============================================================================
 # Folder structure:
-#   shiny_app/
+#   Shiny_Cell_Types_Snapshot/
 #     app.R
 #     cell_metadata.csv
 #     expression_matrix.csv

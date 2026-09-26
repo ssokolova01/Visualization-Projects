@@ -30,8 +30,8 @@ library(DT)
 # ==============================================================================
 # STEP 2: Load and process the datasets
 # ==============================================================================
-#setwd("C:/Users/2759309/Desktop/Shiny_New")
 
+# Loading datasets
 expr_mat   <- read.csv("expression_matrix.csv",  row.names = 1, check.names = FALSE)
 meta_df    <- read.csv("cell_metadata.csv",       stringsAsFactors = FALSE)
 umap_coord <- read.csv("umap_coordinates.csv",    stringsAsFactors = FALSE)

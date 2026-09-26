@@ -1,8 +1,8 @@
 # Visualization Projects
 
-Bioinformatics data visualization in R, produced during the HackBio Data Visualization in Bio (vizbio) internship.
+**Bioinformatics data visualization in R, produced during the HackBio Data Visualization in Bio (vizbio) internship.**
 
-The internship runs from a first R script and a technical writing piece, through exploratory visualization of independent datasets, to the reproduction of a published seven-panel figure and an interactive Shiny web application.
+**The internship runs from a first R script and a technical writing piece, through exploratory visualization of independent datasets, to the reproduction of a published seven-panel figure and an interactive Shiny web application.**
 
 ---
 

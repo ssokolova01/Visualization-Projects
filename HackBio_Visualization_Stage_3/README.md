@@ -1,10 +1,10 @@
 # Cell Type Snapshot Explorer
 
-An interactive Shiny web application for exploring marker genes in a simulated single-cell RNA-seq dataset.
+**An interactive Shiny web application for exploring marker genes in a simulated single-cell RNA-seq dataset.**
 
 **Live app:** https://svetlana--sokolova.shinyapps.io/Shiny_Cell_Types_Snapshot/
 
-Created as part of the HackBio Data Visualization in Bio (vizbio) bioinformatics internship (Stage 3).
+**Created as part of the HackBio Data Visualization in Bio (vizbio) bioinformatics internship (Stage 3).**
 
 --------------------------------------------------------------------------------------------------------------
 

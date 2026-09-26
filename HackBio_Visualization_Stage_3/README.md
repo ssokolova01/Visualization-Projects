@@ -79,11 +79,11 @@ No further setup is needed: the app reads its three CSV files from its own folde
 
 **All view** — every cell coloured by cell type, with the overview table listing the top marker gene for each of the four types:
 
-<img src="figures/All_Cell_Types_View_R.png" width="550">
+<img src="figures/All_Cell_Types_View_R.png" width="580">
 
 **Single cell type selected** — B_cell, coloured by its marker gene `Gene_10` (diff = 3.11), with the other clusters greyed out and the per-gene statistics ranked below:
 
-<img src="figures/B_Cells_Selected_View_R.png" width="550">
+<img src="figures/B_Cells_Selected_View_R.png" width="580">
 
 ---
 

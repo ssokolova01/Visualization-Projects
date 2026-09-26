@@ -1,6 +1,65 @@
 # Cell Type Snapshot Explorer
 
-An interactive Shiny web app for exploring marker genes in a simulated single-cell RNA-seq dataset.
+An interactive Shiny web application for exploring marker genes in a simulated single-cell RNA-seq dataset.
+
+**Live app:** https://svetlana--sokolova.shinyapps.io/Shiny_Cell_Types_Snapshot/
+
+Created as part of the HackBio Data Visualization in Bio (vizbio) bioinformatics internship (Stage 3).
+
+--------------------------------------------------------------------------------------------------------------
+
+## The task
+
+**Cell Type Snapshot Explorer (Shiny, minimal scRNA-seq)**
+
+Build a small Shiny web app that helps a user explore which genes best characterize a selected cell type in a simulated single-cell RNA-seq dataset, and visualize the strongest marker signal on a UMAP embedding. The app must be reproducible from the provided CSV files and produce the same outputs every time.
+
+The finished app must include:
+
+- A dropdown selector to choose a cell type
+- A UMAP scatter plot of all cells, coloured by cell type before a selection is made, and by the expression of an automatically chosen "best marker gene" once a cell type is selected
+- A table of per-gene statistics for the selected cell type: `det_in`, `det_out`, `mean_in`, `mean_out`, `diff`
+- A text output stating the selected cell type, the marker gene used for colouring, and that gene's `diff` value
+- It must run locally via `shiny::runApp()` with no manual steps beyond placing the data files in the expected folder
+
+The marker gene rule was fixed by the brief: **maximum `diff`, with maximum `det_in` as the tie-breaker.** Four helper functions (`t_col`, `scale_0_100`, `compute_gene_stats`, `pick_marker_gene`) were supplied as required boilerplate.
+
+---
+
+## Repository structure
+
+```
+HackBio_Visualization_Stage_3/
+├── README.md
+├── figures/
+│   ├── app_all_view.png
+│   └── app_bcell_view.png
+└── Shiny_Cell_Types_Snapshot/
+    ├── app.R
+    ├── cell_metadata.csv
+    ├── expression_matrix.csv
+    └── umap_coordinates.csv
+```
+
+Shiny requires `app.R` and the data files to sit in the same folder, so they are kept together rather than split into `scripts/` and `data/` folders as in the earlier stages. The app folder is self-contained: downloading it is enough to run the app.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## What the app does
 

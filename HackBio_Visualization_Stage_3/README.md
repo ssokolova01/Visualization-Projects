@@ -61,15 +61,27 @@ Data source: [HackBio 2025 Project Collection](https://github.com/HackBio-Intern
 
 ---
 
-## How to run the app
+## How to run
+
+**1. Get the files.** Clone the repository, or download it as a ZIP and unpack it:
+
+```
+git clone https://github.com/ssokolova01/Visualization-Projects.git
+```
+
+**2. Install the required packages** (once):
 
 ```r
 install.packages(c("shiny", "ggplot2", "dplyr", "DT"))
+```
 
+**3. Run the app** from inside `HackBio_Visualization_Stage_3`:
+
+```r
 shiny::runApp("Shiny_Cell_Types_Snapshot")
 ```
 
-Or open `app.R` in RStudio and click **Run App**.
+Or open `Shiny_Cell_Types_Snapshot/app.R` in RStudio and click **Run App**, which works from any folder.
 
 No further setup is needed: the app reads its three CSV files from its own folder, so there are no paths to edit and no data to load by hand.
 

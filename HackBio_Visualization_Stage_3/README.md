@@ -59,21 +59,15 @@ Four cell types are represented: T_cell, B_cell, NK_cell and Monocyte.
 
 Data source: [HackBio 2025 Project Collection](https://github.com/HackBio-Internship/2025_project_collection)
 
-**Alignment check on load.** The three files are joined by `cell_id`, so the app does not assume they already match. 
+**Checking the files match.** The three files are joined by `cell_id`, so the app does not assume they already match. 
 
-On startup it intersects the cell IDs across all three, subsets each file to the cells they share, and reorders the rows to the same sequence. 
-
-A mismatch in row order between the expression matrix and the metadata would otherwise attach the wrong expression values to the wrong cells, silently and with no error indication.
+On startup the app keeps only the cells present in all three files and puts them in the same order, so expression values can never be attached to the wrong cells.
 
 ---
 
 ## How to run
 
-**1. Get the files.** Clone the repository, or download it as a ZIP and unpack it:
-
-```
-git clone https://github.com/ssokolova01/Visualization-Projects.git
-```
+**1. Download the app folder.** `Shiny_Cell_Types_Snapshot` holds everything needed: `app.R` and the three CSV files. Keep the four files together in one folder.
 
 **2. Install the required packages** (once):
 
@@ -81,25 +75,19 @@ git clone https://github.com/ssokolova01/Visualization-Projects.git
 install.packages(c("shiny", "ggplot2", "dplyr", "DT"))
 ```
 
-**3. Run the app** from inside `HackBio_Visualization_Stage_3`:
+**3. Open `app.R` in RStudio and click Run App.**
 
-```r
-shiny::runApp("Shiny_Cell_Types_Snapshot")
-```
-
-Or open `Shiny_Cell_Types_Snapshot/app.R` in RStudio and click **Run App**, which works from any folder.
-
-No further setup is needed: the app reads its three CSV files from its own folder, so there are no paths to edit and no data to load by hand.
+Nothing else to set up: the app reads the three CSV files from its own folder, so there are no paths to edit and no data to load by hand.
 
 ---
 
 ## Screenshots
 
-**All view** – every cell coloured by cell type, with the overview table listing the top marker gene for each of the four types:
+**All view**. Every cell coloured by cell type. The Overview table displays the top marker gene for each of the four types.
 
 <img src="figures/All_Cell_Types_View_R.png" width="580">
 
-**Single cell type selected** – B_cell, coloured by its marker gene `Gene_10` (diff = 3.11), with the other clusters greyed out and the per-gene statistics ranked below:
+**Single cell type selected**. Example: B_cell, coloured by its marker gene `Gene_10` (diff = 3.1141). Other clusters are greyed out. The per-gene statistics are ranked below. The Overview table is hidden.
 
 <img src="figures/B_Cells_Selected_View_R.png" width="620">
 
@@ -107,17 +95,17 @@ No further setup is needed: the app reads its three CSV files from its own folde
 
 ## What the app does
 
-Select a cell type from the dropdown to see:
+Select a cell type from the dropdown menu to see:
 
-* **The marker gene** for that cell type, with its `diff` score, reported in a text box.
-* **A UMAP plot** where cells of the selected type are coloured by that marker gene's expression, and all other cells are greyed out.
-* **A ranked table** of every gene with its specificity statistics sorted by diff in descending order with det_in as the tie-breaker by default, so that the top marker gene sits at the top. The columns are sortable.
+* **The text box** with the selected cell type, the best marker gene for that cell type and its `diff` score.
+* **A UMAP plot** where only the selected type's cells are coloured, shaded from pale to deep by marker gene expression. All other cells are greyed out.
+* **A ranked table** contains per-gene statistics. Genes are sorted by diff in descending order with det_in as the tie-breaker by default, so that the top marker gene sits at the top. The columns are sortable.
 
-With **All** selected: the UMAP shows every cell coloured by cell type; an Overview Table lists the top marker gene for each of the four types.
+With **All** selected: the UMAP shows every cell coloured by cell type; an Overview table lists the top marker gene for each of the four types.
 
 ---
 
-## The specificity score
+## The gene specificity score
 
 For each gene the app computes a **diff score**:
 
